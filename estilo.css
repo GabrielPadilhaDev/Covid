@@ -1,0 +1,135 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #EFEFEF
+    
+}
+header{
+    border: 30px solid #005588;
+    background-color: #005588;
+    display: block;
+}
+img{
+    width: 250px;
+    height: 60px;
+    margin-bottom: 0px;
+    background-repeat:no-repeat;
+}
+.cabecalho{
+    margin-left: 17%;
+    margin-top: 6%;
+    width: 70%;
+    height: auto;
+    height: 150px;
+}
+.pacesso{
+    margin-left: 37%;
+    margin-top: 5%;
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+    cursor:pointer;/*hand*/
+    
+}   
+footer{
+    background-color: #005588;
+    border: 32px solid #005588;
+    margin-top: 11%;
+    display: flex;
+    align-items: center;
+    animation-name: animacaoTexto;
+    animation-direction:initial;
+    
+}
+.rodape{
+    color: #EFEFEF;
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 16px;
+    animation-name: animacaoTexto;
+    animation-direction: initial;
+    animation-duration:15s ;
+	animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animacaoTexto{
+    from{transform: translatex(-120%);}
+	to{transform: translateX(100%);}
+}
+/*-------------------PAGINA 2--------------------*/
+h2{
+    margin-left: 5px;
+    height: 10px;
+}
+hr{
+    height: 10px;
+    
+}
+.fiqueAtento{
+    margin-top: 1.5px;
+    margin-left: 5px;
+    box-sizing: border-box ;
+    background-color: white;
+    font-size: 17.5px;
+
+}
+.pag2link{
+    color: rgb(10, 53, 117);
+    margin-left: 5px;
+}
+.formulario{
+    margin-left:5px;
+}
+.botoes{
+    display: flex;
+    height: 2px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 5px;
+    
+}
+.h3h4{
+    margin-left: 9px;
+}
+.continuar{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+}
+.voltar{
+    width: 150px;
+    height: 60px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+}
+.footer_pag2{
+    background-color: #005588;
+    border: 32px solid #005588;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    animation-name: animacaoTexto;
+    animation-direction:initial;
+}
+
+/*----------------------Pagina 3--------------------*/
+h6{
+    margin-left: 7px;
+    color: red;
+    margin-top: 1px;
+}
+.form_pag3{
+    margin-left: 7px;
+}
+.termo_aceite{
+    margin-left: 7px;
+    box-sizing: border-box ;
+    background-color: white;
+}
